@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+}
+/* .extra{
+    clip-path: polygon(25% 0%, 100% 0%, 99% 98%, 0% 100%);
+} */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+}
+.nav-logo{
+    margin-left: 10px;
+}
+.nav-logo h1{
+    padding: 8px;
+    font-size: xx-large;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 10px;
+}
+.nav-menu li{
+    list-style: none;
+    margin: 8px;
+    padding: 8px;
+    font-size: large;
+}
+.nav-menu li:hover{
+    color: wheat;
+    cursor: pointer;
+}

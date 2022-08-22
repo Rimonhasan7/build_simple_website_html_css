@@ -32,3 +32,44 @@
     color: wheat;
     cursor: pointer;
 }
+.banner-container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    background-color: black;
+    color: azure;
+}
+.banner-description{
+    margin-left: 40px;
+}
+.banner-text{
+    color: khaki;
+    font-weight: bold;
+    font-size: 24px;
+}
+.banner-title{
+    font-weight: bolder;
+    font-size: 40px;
+    padding: 3px;
+}
+.banner-text2{
+    font-size: 18px;
+    padding: 3px;
+    margin-bottom: 4px;
+}
+.banner-left{
+    width: 50%;
+}
+.banner-right{
+    width: 50%;
+}
+.banner-img img{
+    height: 100vh;
+    width: 100%;
+}
+.banner-btn{
+    padding: 12px 24px;
+    background-color: gold;
+    margin-top: 10px;
+}
